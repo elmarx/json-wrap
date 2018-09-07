@@ -5,6 +5,13 @@ Simple tool to wrap it's input into JSON.
 
 This is useful for feeding output of tools that to elasticsearch, e.g. Django's *migrate* command which you might execute as part of your service.
 
+Install
+-------
+
+This script requires python > 3.4, but no additional modules are required.
+
+Install via `make install` to */usr/local/bin/json-wrap*, but you probably want to place in somewhere in a container, don't you?
+
 Usage
 -----
 
